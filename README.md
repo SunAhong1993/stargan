@@ -1,6 +1,8 @@
 ## StarGAN - PaddlePaddle实现
 <p align="center"><img width="100%" src="jpg/main.jpg" /></p>
-该代码提供了如下论文的官方实现：  
+
+
+该代码提供了如下论文的官方实现：    
 StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
 
 ## 依赖
