@@ -6,9 +6,9 @@
 <p align="center"><img width="100%" src="jpg/main.jpg" /></p>
 
 ## 依赖
-* [Python 3.5+](https://www.continuum.io/downloads)
-* [PaddlePaddle 2.0.1+](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html)
-* [X2Paddle 1.2+](https://github.com/PaddlePaddle/X2Paddle)
+* [python 3.5+](https://www.continuum.io/downloads)
+* [paddlepaddle 或 paddlepaddle-gpu 2.0.1+](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip)
+* [x2Paddle 1.2+](https://github.com/PaddlePaddle/X2Paddle)
 
 ## 下载数据集
 下载CelebA数据集:
