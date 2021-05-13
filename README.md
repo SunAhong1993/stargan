@@ -2,8 +2,9 @@
 <p align="center"><img width="100%" src="jpg/main.jpg" /></p>
 
 
-该代码提供了如下论文的官方实现：    
-StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
+- 该代码提供了如下论文的PaddlePaddle实现：    
+***StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation***
+- 该代码由论文的[PyTorch官方实现](https://github.com/yunjey/stargan)通过[X2Paddle](https://github.com/PaddlePaddle/X2Paddle)转换而来，转换过程参加[教程](https://github.com/SunAhong1993/X2Paddle/blob/code_convert_last/docs/pytorch_project_convertor/demo.md#stargan)。
 
 ## 依赖
 * [Python 3.5+](https://www.continuum.io/downloads)
