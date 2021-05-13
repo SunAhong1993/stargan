@@ -1,7 +1,7 @@
 ## StarGAN - Official PyTorch Implementation
 <p align="center"><img width="100%" src="jpg/main.jpg" /></p>
 该代码提供了如下论文的官方实现：  
-**StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation**
+StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
 
 ## 依赖
 * [Python 3.5+](https://www.continuum.io/downloads)
