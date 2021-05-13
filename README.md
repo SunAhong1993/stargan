@@ -93,7 +93,7 @@ wget https://x2paddle.bj.bcebos.com/vision/StatGAN/200000-D.pdiparams
 为了使用预训练模型转换图像，可以运行如下脚本进行评估，转换结果将保存至`./stargan_celeba_128/results`。
 
 ```bash
-$ python main.py --mode test --dataset CelebA --image_size 128 --c_dim 5 \
+python main.py --mode test --dataset CelebA --image_size 128 --c_dim 5 \
                  --selected_attrs Black_Hair Blond_Hair Brown_Hair Male Young \
                  --model_save_dir='stargan_celeba_128/models' \
                  --result_dir='stargan_celeba_128/results'
