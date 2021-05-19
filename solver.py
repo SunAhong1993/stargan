@@ -153,13 +153,12 @@ class Solver(object):
                         if j != i:
                             c_trg[:, j] = 0
                 else:
-                    is_bool = False
-                    if str(c_trg.dtype) == "VarType.BOOL":
-                        c_trg = c_trg.cast("int32")
-                        is_bool = True
-                    c_trg[:, i] = (c_trg[:, i] == 0) 
-                    if is_bool:
-                        c_trg = c_trg.cast("bool")
+                    c_trg = c_trg.cast("int32")
+                    c_trg_tmp = paddle.zeros_like(c_trg)
+                    paddle.assign(c_trg, c_trg_tmp)
+                    c_trg_tmp = c_trg_tmp.cast("bool")
+                    c_trg_tmp[:, i] = c_trg[:, i] == 0
+                    c_trg = c_trg_tmp 
             elif dataset == 'RaFD':
                 c_trg = self.label2onehot(paddle.ones(c_org.size(0)).
                     requires_grad_(False) * i, c_dim)
